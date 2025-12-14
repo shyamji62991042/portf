@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shyam Pandey | Java Developer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+  <style>
+    
+
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Shyam<span>Pandey</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- HERO SECTION -->
+  <header id="home">
+    <div data-aos="fade-up" class="hero">
+      <img src="https://media.licdn.com/dms/image/v2/D4D03AQHzzbHGKBur9A/profile-displayphoto-shrink_400_400/B4DZXgoVPXGkAg-/0/1743230425286?e=1767225600&v=beta&t=_j88A1uLf6E7FDDH32PmPVU1Pf2wO7Cap2QGA3YR0Jk" alt="Profile Image" class="profile-img" />
+      <h1>Hi, I'm <span>Shyam Pandey</span></h1>
+      <p>Java Developer | Spring Boot | MySQL | Problem Solver</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>
+      My name is <strong>Shyam Pandey</strong>, and I am a dedicated Computer Science Engineering (CSE) student at <strong>Technocrats Institute of Technology</strong>. I have a strong interest in software development, especially in <strong>Java-based backend development</strong>. I believe in building software that is not only functional but also secure, scalable, and meaningful in real-world scenarios.
+      <br><br>
+      Academically, I maintain a consistent performance with a <strong>CGPA of approximately 7.5+</strong>, reflecting my discipline and seriousness toward my studies. Along with academics, I actively focus on strengthening my core concepts in <strong>Data Structures, Algorithms, OOPs, DBMS, and Software Engineering</strong>.
+      <br><br>
+      I have solved <strong>500+ coding problems</strong> on platforms like <strong>LeetCode and CodeChef</strong>, which has significantly improved my logical thinking, problem-solving ability, and confidence in handling technical interviews.
+      <br><br>
+      Beyond coding, I am a self-motivated learner who believes in continuous improvement. I regularly explore new technologies, read technical blogs, and practice clean coding standards.
+    </p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" data-aos="zoom-in">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="card">Core Java & OOPs</div>
+      <div class="card">Spring Boot & REST APIs</div>
+      <div class="card">JDBC & MySQL</div>
+      <div class="card">HTML, CSS, JavaScript</div>
+      <div class="card">Git & GitHub</div>
+      <div class="card">Problem Solving & DSA</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>File Hider Application</h3>
+        <p>
+          A console-based Java application designed to securely hide and unhide files using authentication.
+          <br><br>
+          <strong>Features:</strong>
+          <ul>
+            <li>OTP-based email verification using JavaMail API</li>
+            <li>Secure login system</li>
+            <li>MySQL database integration using JDBC</li>
+          </ul>
+          <strong>Tech Stack:</strong> Java, JDBC, MySQL
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>E-Voting System</h3>
+        <p>
+          A web-based voting system that ensures transparency and role-based access.
+          <br><br>
+          <strong>Features:</strong>
+          <ul>
+            <li>Admin & voter authentication</li>
+            <li>Secure vote casting</li>
+            <li>Real-time result calculation</li>
+          </ul>
+          <strong>Tech Stack:</strong> Java, MySQL, HTML, CSS
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>MistyMart</h3>
+        <p>
+          A desktop-based shopping management system developed using Java Swing.
+          <br><br>
+          <strong>Features:</strong>
+          <ul>
+            <li>Product management</li>
+            <li>User-friendly GUI</li>
+            <li>Database-backed inventory system</li>
+          </ul>
+          <strong>Tech Stack:</strong> Java Swing, MySQL
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Smart Email Assistant</h3>
+        <p>
+          A Java-based assistant that automates email-related tasks.
+          <br><br>
+          <strong>Features:</strong>
+          <ul>
+            <li>Email automation logic</li>
+            <li>Structured email formatting</li>
+            <li>Time-saving workflows</li>
+          </ul>
+          <strong>Tech Stack:</strong> Java
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEEDBACK / CONTACT FORM -->
+  <section id="contact" data-aos="zoom-in">
+    <h2>Feedback & Contact</h2>
+    <p style="max-width:700px;opacity:0.9;">Have feedback, suggestions, or want to connect with me? Fill out the form below. Your message will be sent directly to my Gmail.</p>
+
+    <form id="contact-form" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Feedback / Message" required></textarea>
+      <button type="submit" class="btn">Send Feedback</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <!-- HOBBIES & INTERESTS -->
+  <section id="contact" data-aos="fade-left">
+    <h2>Hobbies & Interests</h2>
+    <div class="skills">
+      <div class="card">🎮 Playing Strategy & Competitive Games</div>
+      <div class="card">🏏 Watching & Playing Cricket</div>
+      <div class="card">📚 Reading Self-Improvement & Tech Books</div>
+      <div class="card">💡 Exploring New Technologies</div>
+      <div class="card">🧠 Problem Solving & Logical Puzzles</div>
+      <div class="card">🎧 Listening to Music for Focus</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Shyam Pandey</h3>
+        <p>Java Backend Developer focused on building secure, scalable, and real-world software solutions.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>Email: shyampandey@email.com</p>
+        <b><a href="https://github.com/shyamji62991042">GitHub</a></b>
+        <br>
+        <b><a href="https://www.linkedin.com/in/shyam-pandey-916407263/"></a>LinkedIn</b>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Shyam Pandey | Designed & Built with ❤️ using HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- AOS SCRIPT -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+  <!-- EMAILJS SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("YOUR_PUBLIC_KEY"); // replace with EmailJS public key
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      emailjs.sendForm(
+        "YOUR_SERVICE_ID", // Gmail service ID
+        "YOUR_TEMPLATE_ID", // Email template ID
+        this
+      ).then(() => {
+        document.getElementById("form-status").innerText = "Feedback sent successfully!";
+        this
+</html>
