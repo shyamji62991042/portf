@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        .leftbox{
+            display: flex;
+            flex-direction: column;   /* ✅ correct place */
+            border: 2px solid black;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .first{
+            height: 100px;
+            width: 300px;
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid black;
+        }
+
+        .rightbox{
+            border: 2px solid black;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .rightbox img{
+            width: 200px;
+        }
+
+    @media (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+}
+ 
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="leftbox">
+            <div class="first">text1</div>
+            <div class="first">text2</div>
+        </div>
+
+        <div class="rightbox">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQHzzbHGKBur9A/profile-displayphoto-shrink_800_800/B4DZXgoVPXGkAc-/0/1743230425296?e=1767225600&v=beta&t=teXEj2h4MSTjCimj5jGQ4timZW-1EHAgPr3J9tVvZZQ" alt="image">
+        </div>
+
+    </div>
+</body>
+</html>
